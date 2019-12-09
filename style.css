@@ -187,3 +187,15 @@ button {
 .clearfix {
   clear: both;
 }
+
+.error, .success {
+  padding-bottom: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}

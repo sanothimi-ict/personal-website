@@ -59,6 +59,7 @@
       <div class="clearfix"></div>
       <div class="contact-box">
         <h1>Get in touch with me</h1>
+        <div id="alert"></div>
         <form>
           <label for="fullName">Full Name: </label>
           <input id="fullName" type="text" name="fullName" placeholder="Enter Your Name" />
@@ -68,15 +69,16 @@
           <input type="email" id="email" name="email" placeholder="Enter Your Email" />
           <label for="message">Message: </label>
           <textarea name="message" id="message" placeholder="Your Message..."></textarea>
+          <div id="characterCount">0 Characters</div>
           <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
+          <button type="reset" id="reset">Reset</button>
         </form>
       </div>
     </div>
   </main>
   <footer>
     <div class="copyright">
-      <p>Tilak KC &copy; 2019. All Rights Reserved</p>
+      <p>Tilak KC &copy; <span id="currentYear"></span>. All Rights Reserved</p>
     </div>
   </footer>
   <script src="script.js"></script>
